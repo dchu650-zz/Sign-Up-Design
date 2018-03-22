@@ -1,12 +1,3 @@
-// var element = document.getElementById("container"),
-//     style = window.getComputedStyle(element),
-//     width = style.getPropertyValue('width'),
-//     height = style.getPropertyValue('height');
-// console.log(width);
-// console.log(height);
-// var dots = [];
-// var numDots = 100;
-
 var pw="",
     un="",
     users= new Map();
