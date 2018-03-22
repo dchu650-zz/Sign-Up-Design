@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Collect UI #1 (Sign up)</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="center-border-left">
+    <img src="http://static3.businessinsider.com/image/59289b2379474c1d008b4cbc/12-striking-facts-about-mars-that-will-make-you-a-fan-of-the-red-planet.jpg" alt="mars" class="mars-image">
+    <div class="caption">
+      <p>martian</p>
+    </div>
+  </div>
+  <div class="vertical-line">
+  </div>
+  <div class="center-border-right">
+    <input type="text"  placeholder="Username" class="username" id="username">
+    <input type="password"  placeholder="Password" class="password" id="password">
+    <input type="submit" value="Sign In" class="sign-in" onclick="signIn(document.getElementById('username').value, document.getElementById('password').value)">
+    <input type="submit" value="Sign Up" class="sign-up" onclick="signUp(document.getElementById('username').value, document.getElementById('password').value)">
+    <button class="forgot-password" onclick='forgotPassword()'>Forgot Password?</button>
+  </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
